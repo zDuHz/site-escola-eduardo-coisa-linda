@@ -1,0 +1,63 @@
+/* Reset some default styling */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav {
+  background-color: #444;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 2rem;
+}
+
+.car-listing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.car {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+.car img {
+  max-width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #444;
+  color: white;
+}
