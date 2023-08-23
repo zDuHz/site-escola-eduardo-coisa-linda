@@ -1,63 +1,76 @@
-/* Reset some default styling */
-body, h1, h2, p, ul, li {
-  margin: 0;
-  padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body {
-  font-family: Arial, sans-serif;
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho-imagem{
+    width: 8%;
 }
 
-header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 1rem;
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
 
-nav {
-  background-color: #444;
+.logo-colegio{
+width: 15%;
+
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 0.5rem;
+.escola{
+background-image: linear-gradient(#424E61,#4EBFE9
+);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 24px 0;
 }
 
-nav li {
-  margin: 0 1rem;
-}
+.escola-div-conteudo{
+width: 35%;
 
-nav a {
-  text-decoration: none;
-  color: white;
-}
 
-main {
-  padding: 2rem;
 }
+.escola-titulo{
+padding: 24px 0;
 
-.car-listing {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
 }
-
-.car {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  text-align: center;
+.estudante-imagem{
+    width: 120px;
 }
-
-.car img {
-  max-width: 100%;
+.estudante-icone{
+    width: 20px;
 }
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #444;
-  color: white;
+.estudante-div{
+    text-align: center;
+}
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.rodape{
+    background-color: black;
+    text-align: center;
+    
+}
+.foto-rodape{
+    height: 60px;
+    padding: 12px 0;
 }
